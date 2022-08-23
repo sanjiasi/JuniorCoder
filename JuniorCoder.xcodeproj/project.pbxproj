@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		670C005828B4747800F7F540 /* RxStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670C005728B4747800F7F540 /* RxStudent.swift */; };
+		672E938728AC739D00A7119D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672E938628AC739D00A7119D /* AppDelegate.swift */; };
+		672E938928AC739D00A7119D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672E938828AC739D00A7119D /* SceneDelegate.swift */; };
+		672E938B28AC739D00A7119D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672E938A28AC739D00A7119D /* ViewController.swift */; };
+		672E938E28AC739D00A7119D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 672E938C28AC739D00A7119D /* Main.storyboard */; };
+		672E939028AC739E00A7119D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 672E938F28AC739E00A7119D /* Assets.xcassets */; };
+		672E939328AC739E00A7119D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 672E939128AC739E00A7119D /* LaunchScreen.storyboard */; };
+		672E939E28AC739E00A7119D /* JuniorCoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672E939D28AC739E00A7119D /* JuniorCoderTests.swift */; };
+		672E93A828AC739E00A7119D /* JuniorCoderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672E93A728AC739E00A7119D /* JuniorCoderUITests.swift */; };
+		672E93AA28AC739E00A7119D /* JuniorCoderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672E93A928AC739E00A7119D /* JuniorCoderUITestsLaunchTests.swift */; };
+		8068264041CD6950482F1B0C /* Pods_JuniorCoder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51C49D156C6FC1464F635517 /* Pods_JuniorCoder.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		672E939A28AC739E00A7119D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 672E937B28AC739D00A7119D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 672E938228AC739D00A7119D;
+			remoteInfo = JuniorCoder;
+		};
+		672E93A428AC739E00A7119D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 672E937B28AC739D00A7119D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 672E938228AC739D00A7119D;
+			remoteInfo = JuniorCoder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		51C49D156C6FC1464F635517 /* Pods_JuniorCoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JuniorCoder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E42060DAF6124E5956D6006 /* Pods-JuniorCoder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JuniorCoder.debug.xcconfig"; path = "Target Support Files/Pods-JuniorCoder/Pods-JuniorCoder.debug.xcconfig"; sourceTree = "<group>"; };
+		670C005728B4747800F7F540 /* RxStudent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxStudent.swift; sourceTree = "<group>"; };
+		672E938328AC739D00A7119D /* JuniorCoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JuniorCoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		672E938628AC739D00A7119D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		672E938828AC739D00A7119D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		672E938A28AC739D00A7119D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		672E938D28AC739D00A7119D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		672E938F28AC739E00A7119D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		672E939228AC739E00A7119D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		672E939428AC739E00A7119D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		672E939928AC739E00A7119D /* JuniorCoderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JuniorCoderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		672E939D28AC739E00A7119D /* JuniorCoderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuniorCoderTests.swift; sourceTree = "<group>"; };
+		672E93A328AC739E00A7119D /* JuniorCoderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JuniorCoderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		672E93A728AC739E00A7119D /* JuniorCoderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuniorCoderUITests.swift; sourceTree = "<group>"; };
+		672E93A928AC739E00A7119D /* JuniorCoderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuniorCoderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8E6DBC51D9B40F6880A5AB2C /* Pods-JuniorCoder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JuniorCoder.release.xcconfig"; path = "Target Support Files/Pods-JuniorCoder/Pods-JuniorCoder.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		672E938028AC739D00A7119D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8068264041CD6950482F1B0C /* Pods_JuniorCoder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		672E939628AC739E00A7119D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		672E93A028AC739E00A7119D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		672E937A28AC739D00A7119D = {
+			isa = PBXGroup;
+			children = (
+				672E938528AC739D00A7119D /* JuniorCoder */,
+				672E939C28AC739E00A7119D /* JuniorCoderTests */,
+				672E93A628AC739E00A7119D /* JuniorCoderUITests */,
+				672E938428AC739D00A7119D /* Products */,
+				F257845B560D2614716DE684 /* Pods */,
+				C17088487283802208706496 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		672E938428AC739D00A7119D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				672E938328AC739D00A7119D /* JuniorCoder.app */,
+				672E939928AC739E00A7119D /* JuniorCoderTests.xctest */,
+				672E93A328AC739E00A7119D /* JuniorCoderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		672E938528AC739D00A7119D /* JuniorCoder */ = {
+			isa = PBXGroup;
+			children = (
+				672E938628AC739D00A7119D /* AppDelegate.swift */,
+				672E938828AC739D00A7119D /* SceneDelegate.swift */,
+				672E938A28AC739D00A7119D /* ViewController.swift */,
+				670C005728B4747800F7F540 /* RxStudent.swift */,
+				672E938C28AC739D00A7119D /* Main.storyboard */,
+				672E938F28AC739E00A7119D /* Assets.xcassets */,
+				672E939128AC739E00A7119D /* LaunchScreen.storyboard */,
+				672E939428AC739E00A7119D /* Info.plist */,
+			);
+			path = JuniorCoder;
+			sourceTree = "<group>";
+		};
+		672E939C28AC739E00A7119D /* JuniorCoderTests */ = {
+			isa = PBXGroup;
+			children = (
+				672E939D28AC739E00A7119D /* JuniorCoderTests.swift */,
+			);
+			path = JuniorCoderTests;
+			sourceTree = "<group>";
+		};
+		672E93A628AC739E00A7119D /* JuniorCoderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				672E93A728AC739E00A7119D /* JuniorCoderUITests.swift */,
+				672E93A928AC739E00A7119D /* JuniorCoderUITestsLaunchTests.swift */,
+			);
+			path = JuniorCoderUITests;
+			sourceTree = "<group>";
+		};
+		C17088487283802208706496 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51C49D156C6FC1464F635517 /* Pods_JuniorCoder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F257845B560D2614716DE684 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E42060DAF6124E5956D6006 /* Pods-JuniorCoder.debug.xcconfig */,
+				8E6DBC51D9B40F6880A5AB2C /* Pods-JuniorCoder.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		672E938228AC739D00A7119D /* JuniorCoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 672E93AD28AC739E00A7119D /* Build configuration list for PBXNativeTarget "JuniorCoder" */;
+			buildPhases = (
+				20EF8B9962B3B068264D8EB8 /* [CP] Check Pods Manifest.lock */,
+				672E93B628ACDE1300A7119D /* ShellScript */,
+				672E937F28AC739D00A7119D /* Sources */,
+				672E938028AC739D00A7119D /* Frameworks */,
+				672E938128AC739D00A7119D /* Resources */,
+				D7F654647C042D7E3028797E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JuniorCoder;
+			productName = JuniorCoder;
+			productReference = 672E938328AC739D00A7119D /* JuniorCoder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		672E939828AC739E00A7119D /* JuniorCoderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 672E93B028AC739E00A7119D /* Build configuration list for PBXNativeTarget "JuniorCoderTests" */;
+			buildPhases = (
+				672E939528AC739E00A7119D /* Sources */,
+				672E939628AC739E00A7119D /* Frameworks */,
+				672E939728AC739E00A7119D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				672E939B28AC739E00A7119D /* PBXTargetDependency */,
+			);
+			name = JuniorCoderTests;
+			productName = JuniorCoderTests;
+			productReference = 672E939928AC739E00A7119D /* JuniorCoderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		672E93A228AC739E00A7119D /* JuniorCoderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 672E93B328AC739E00A7119D /* Build configuration list for PBXNativeTarget "JuniorCoderUITests" */;
+			buildPhases = (
+				672E939F28AC739E00A7119D /* Sources */,
+				672E93A028AC739E00A7119D /* Frameworks */,
+				672E93A128AC739E00A7119D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				672E93A528AC739E00A7119D /* PBXTargetDependency */,
+			);
+			name = JuniorCoderUITests;
+			productName = JuniorCoderUITests;
+			productReference = 672E93A328AC739E00A7119D /* JuniorCoderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		672E937B28AC739D00A7119D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					672E938228AC739D00A7119D = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					672E939828AC739E00A7119D = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 672E938228AC739D00A7119D;
+					};
+					672E93A228AC739E00A7119D = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 672E938228AC739D00A7119D;
+					};
+				};
+			};
+			buildConfigurationList = 672E937E28AC739D00A7119D /* Build configuration list for PBXProject "JuniorCoder" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 672E937A28AC739D00A7119D;
+			productRefGroup = 672E938428AC739D00A7119D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				672E938228AC739D00A7119D /* JuniorCoder */,
+				672E939828AC739E00A7119D /* JuniorCoderTests */,
+				672E93A228AC739E00A7119D /* JuniorCoderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		672E938128AC739D00A7119D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				672E939328AC739E00A7119D /* LaunchScreen.storyboard in Resources */,
+				672E939028AC739E00A7119D /* Assets.xcassets in Resources */,
+				672E938E28AC739D00A7119D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		672E939728AC739E00A7119D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		672E93A128AC739E00A7119D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20EF8B9962B3B068264D8EB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JuniorCoder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		672E93B628ACDE1300A7119D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+		};
+		D7F654647C042D7E3028797E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JuniorCoder/Pods-JuniorCoder-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JuniorCoder/Pods-JuniorCoder-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JuniorCoder/Pods-JuniorCoder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		672E937F28AC739D00A7119D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				672E938B28AC739D00A7119D /* ViewController.swift in Sources */,
+				672E938728AC739D00A7119D /* AppDelegate.swift in Sources */,
+				672E938928AC739D00A7119D /* SceneDelegate.swift in Sources */,
+				670C005828B4747800F7F540 /* RxStudent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		672E939528AC739E00A7119D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				672E939E28AC739E00A7119D /* JuniorCoderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		672E939F28AC739E00A7119D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				672E93A828AC739E00A7119D /* JuniorCoderUITests.swift in Sources */,
+				672E93AA28AC739E00A7119D /* JuniorCoderUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		672E939B28AC739E00A7119D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 672E938228AC739D00A7119D /* JuniorCoder */;
+			targetProxy = 672E939A28AC739E00A7119D /* PBXContainerItemProxy */;
+		};
+		672E93A528AC739E00A7119D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 672E938228AC739D00A7119D /* JuniorCoder */;
+			targetProxy = 672E93A428AC739E00A7119D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		672E938C28AC739D00A7119D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				672E938D28AC739D00A7119D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		672E939128AC739E00A7119D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				672E939228AC739E00A7119D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		672E93AB28AC739E00A7119D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		672E93AC28AC739E00A7119D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		672E93AE28AC739E00A7119D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E42060DAF6124E5956D6006 /* Pods-JuniorCoder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TF844TQ9AW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JuniorCoder/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gla.JuniorCoder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		672E93AF28AC739E00A7119D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E6DBC51D9B40F6880A5AB2C /* Pods-JuniorCoder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TF844TQ9AW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JuniorCoder/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gla.JuniorCoder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		672E93B128AC739E00A7119D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TF844TQ9AW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gla.JuniorCoderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JuniorCoder.app/JuniorCoder";
+			};
+			name = Debug;
+		};
+		672E93B228AC739E00A7119D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TF844TQ9AW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gla.JuniorCoderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JuniorCoder.app/JuniorCoder";
+			};
+			name = Release;
+		};
+		672E93B428AC739E00A7119D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TF844TQ9AW;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gla.JuniorCoderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JuniorCoder;
+			};
+			name = Debug;
+		};
+		672E93B528AC739E00A7119D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TF844TQ9AW;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gla.JuniorCoderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JuniorCoder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		672E937E28AC739D00A7119D /* Build configuration list for PBXProject "JuniorCoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				672E93AB28AC739E00A7119D /* Debug */,
+				672E93AC28AC739E00A7119D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		672E93AD28AC739E00A7119D /* Build configuration list for PBXNativeTarget "JuniorCoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				672E93AE28AC739E00A7119D /* Debug */,
+				672E93AF28AC739E00A7119D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		672E93B028AC739E00A7119D /* Build configuration list for PBXNativeTarget "JuniorCoderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				672E93B128AC739E00A7119D /* Debug */,
+				672E93B228AC739E00A7119D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		672E93B328AC739E00A7119D /* Build configuration list for PBXNativeTarget "JuniorCoderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				672E93B428AC739E00A7119D /* Debug */,
+				672E93B528AC739E00A7119D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 672E937B28AC739D00A7119D /* Project object */;
+}
